@@ -1,0 +1,21 @@
+.CharityList {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+    .CharityList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .CharityList {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

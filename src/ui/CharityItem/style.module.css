@@ -1,0 +1,50 @@
+.CharityItem {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    color: #343434;
+}
+
+.CharityItem.Active {
+    color: #fff;
+    background: #4B63E1;
+}
+
+.CharityItem.Active button {
+    background: #fff;
+    color: #4B63E1;
+}
+
+.CharityItem h3 {
+    font-size: 28px;
+}
+
+.CharityItem p {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.Input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Input input {
+    max-width: 120px;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.Input input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}

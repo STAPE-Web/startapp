@@ -1,0 +1,32 @@
+.PaymentMethods {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.PaymentMethods h2 {
+    font-size: 24px;
+    color: #343434;
+    text-align: center;
+}
+
+.PaymentMethods div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+@media screen and (max-width: 700px) {
+    .PaymentMethods img {
+        max-width: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .PaymentMethods div {
+        gap: 20px;
+    }
+}

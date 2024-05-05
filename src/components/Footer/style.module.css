@@ -1,0 +1,63 @@
+.Footer {
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Top {
+    width: 100%;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Top .Box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.Logo path {
+    fill: #fff;
+}
+
+.Copyright {
+    max-width: 1240px;
+    width: 100%;
+    border-top: 1px solid #C0C0C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Copyright p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 730px) {
+    .Top {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Top .Box {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .Top .Box button {
+        width: 100%;
+    }
+}

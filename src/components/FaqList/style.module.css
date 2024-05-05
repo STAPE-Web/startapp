@@ -1,0 +1,20 @@
+.FaqList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.FaqList h2 {
+    font-size: 24px;
+    color: #343434;
+    text-align: center;
+}

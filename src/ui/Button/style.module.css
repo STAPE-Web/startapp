@@ -1,0 +1,22 @@
+.Button {
+    height: 50px;
+    width: fit-content;
+    padding: 0 30px;
+    border-radius: 16px;
+    background: #4B63E1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+.Button:hover {
+    opacity: 0.7;
+}
+
+.Button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
