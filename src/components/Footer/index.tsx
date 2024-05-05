@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
 
             <div className={styles.Copyright}>
-                <p>© Copyright ООО StartApp. 2023-2024</p>
+                <p>© Copyright ООО «Старт ЭПП». 2023-2024</p>
             </div>
         </footer>
     )
