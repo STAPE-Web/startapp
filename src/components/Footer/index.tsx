@@ -20,6 +20,8 @@ const Footer = () => {
 
             <div className={styles.Copyright}>
                 <p>© Copyright ООО «Старт ЭПП». 2023-2024</p>
+                <p>ИНН: 7703270067</p>
+                <p>ОГРН: 1027739329408</p>
             </div>
         </footer>
     )

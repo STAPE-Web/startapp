@@ -35,12 +35,19 @@
     align-items: center;
     justify-content: center;
     padding-top: 30px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Copyright p:first-child {
+    opacity: 1;
 }
 
 .Copyright p {
     font-size: 14px;
     color: #fff;
     font-weight: 400;
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 730px) {
