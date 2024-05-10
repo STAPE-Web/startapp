@@ -4,7 +4,7 @@ import StoreButton from "@/ui/StoreButton"
 import { IStore } from "@/types"
 
 const Header = () => {
-    const storeArray: IStore[] = ["appstore", "google", "rustore"]
+    const storeArray: IStore[] = ["appstore"]
 
     return (
         <header className={styles.Header}>

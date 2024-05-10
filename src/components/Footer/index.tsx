@@ -4,7 +4,7 @@ import StoreButton from "@/ui/StoreButton"
 import styles from "./style.module.css"
 
 const Footer = () => {
-    const storeArray: IStore[] = ["appstore", "google", "rustore"]
+    const storeArray: IStore[] = ["appstore"]
 
     return (
         <footer className={styles.Footer}>
